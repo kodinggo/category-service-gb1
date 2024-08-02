@@ -1,4 +1,4 @@
-module github.com/kodinggo/category-service-gb1
+module kodinggo/category-service-gb1
 
 go 1.21.4
 

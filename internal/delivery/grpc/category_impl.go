@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	pb "github.com/kodinggo/category-service-gb1/pb/category"
+	pb "kodinggo/category-service-gb1/pb/category"
 )
 
 // FindCategorys is a function to find categorys

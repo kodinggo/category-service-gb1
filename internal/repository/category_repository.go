@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/kodinggo/category-service-gb1/internal/model"
+import "kodinggo/category-service-gb1/internal/model"
 
 type categoryRepository struct {
 }

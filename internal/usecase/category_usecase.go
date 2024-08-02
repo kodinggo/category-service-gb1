@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/kodinggo/category-service-gb1/internal/model"
+import "kodinggo/category-service-gb1/internal/model"
 
 type categoryUsecase struct {
 	categoryRepo model.CategoryRepository
