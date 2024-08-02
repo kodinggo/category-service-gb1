@@ -22,12 +22,12 @@ func main() {
 
 	pb.RegisterCategoryServiceServer(s, categoryService)
 
-	listen, err := net.Listen("tcp", ":3200")
+	listen, err := net.Listen("tcp", ":3300")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	log.Println("Starting server at :3200")
+	log.Println("Starting server at :3300")
 
 	err = s.Serve(listen)
 	if err != nil {
