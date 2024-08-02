@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"kodinggo/category-service-gb1/internal/model"
-	pb "kodinggo/category-service-gb1/pb/category"
+	"github.com/kodinggo/category-service-gb1/internal/model"
+	pb "github.com/kodinggo/category-service-gb1/pb/category"
 )
 
 type CategoryService struct {

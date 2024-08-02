@@ -4,10 +4,10 @@ import (
 	"log"
 	"net"
 
-	grpcSvc "kodinggo/category-service-gb1/internal/delivery/grpc"
-	"kodinggo/category-service-gb1/internal/repository"
-	"kodinggo/category-service-gb1/internal/usecase"
-	pb "kodinggo/category-service-gb1/pb/category"
+	grpcSvc "github.com/kodinggo/category-service-gb1/internal/delivery/grpc"
+	"github.com/kodinggo/category-service-gb1/internal/repository"
+	"github.com/kodinggo/category-service-gb1/internal/usecase"
+	pb "github.com/kodinggo/category-service-gb1/pb/category"
 
 	"google.golang.org/grpc"
 )
